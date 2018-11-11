@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+body {
+	background: url('winnie.jpg');
+	background-repeat: no-repeat;
+	background-size:1600px 1000px;
+	background-position: center;
+}
+.row {
+	height:800px;
+	width:1500px;
+	margin-left:0px;
+
+}
+#profile_pic {
+	border-radius:100%;
+	border: 2px solid #ff9ff3;
+	box-shadow: 0 2px 2px black;
+	box-sizing: border-box;
+	position: absolute;
+	margin-top:15px;
+	margin-left:525px;
+}
+#gif {
+	border-radius:0%;
+	position: absolute;
+	margin-top:25px;
+	margin-left:1000px;
+}
+#gif1 {
+	border-radius:0%;
+	position: absolute;
+	margin-top:200px;
+	margin-left:25px;
+}
+#title {
+	position: absolute;
+	font-family: verdana;
+	font-size:250%;
+	margin-left:475px;
+	margin-top:250px;
+	color: #341f97;
+	font-family: 'Pacifico', cursive;
+}
+#Me {
+	position: absolute;
+	margin-left: 575px;
+	margin-top: 325px;
+	font-family: 'Pacifico', cursive;
+	color:#341f97;
+	font-weight: bold;
+}
+#Pics {
+	position: absolute;
+	font-size:300%;
+	margin-left: 575px;
+	margin-top: 300px;
+	font-family: 'Pacifico', cursive;
+	color:#341f97;
+	font-weight: bold;
+}
+.boxs {
+	display:inline-block;
+	margin-left:auto ;
+	float: left;
+	width: 15%;
+	padding: 50px 10px;
+}
+.boxs img {
+	width: 80%;
+	margin-left:200px;
+	margin-top: 400px;
+}
+.boxs img:hover {
+	transform: rotate(20deg);
+	transition: all 0.5s;
+}
+
+.button1 {
+	font-weight:bold;
+    position:absolute;
+    margin-top:-800px;
+	-webkit-transition: all 0.5s;
+	-webkit-border-radius: 0px;
+	line-height: 50px;
+	color:#ff9ff3;
+	background:#48dbfb;
+	width:200px;
+	text-align:center;
+	box-shadow:1px 1px 5px rgba(0,0,0,0.5),
+			   0px 0px 0px 1px rgba(0,0,0,0.1);
+}
+.button2 {
+	font-weight:bold;
+	position:absolute;
+	margin-top:-800px;
+	margin-left:200px;
+	-webkit-transition: all 0.5s;
+	-webkit-border-radius: 0px;
+	line-height: 50px;
+	color:#ff9ff3;
+	background:#48dbfb;
+	width:200px;
+	text-align:center;
+	box-shadow:1px 1px 5px rgba(0,0,0,0.5),
+			   0px 0px 0px 1px rgba(0,0,0,0.1);
+}
+
+
+.button1:hover {
+	color:#48dbfb;
+	background:#ff9ff3;
+	cursor:pointer;
+}
+.button2:hover {
+	color:#48dbfb;
+	background:#ff9ff3;
+	cursor:pointer;
+}
